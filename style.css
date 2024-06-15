@@ -19,6 +19,7 @@
     --bg-acessibilidade: #f6e7ff;
     --shadow: 0px 16px 40px 0px rgba(142, 160, 193, 0.14);
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-dasktop: url(./assets/images/pattern-background-desktop-light.svg);
 }
 
 
@@ -137,3 +138,52 @@ main{
     background: var(--bg-acessibilidade);
 }
 
+@media(min-width: 1100px) {
+    body{
+        background: var(--bg-dasktop) var(--bg-color);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    header{
+        margin-block: 81px;
+    }
+
+    .tema img{
+
+    }
+
+    main {
+        display: flex;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .boas_vindas h1{
+        font-size: 64px;
+        margin-bottom: 48px;
+    }
+
+    .boas_vindas p{
+        font-size: 20px;
+    }
+
+    .assuntos{
+        gap: 24px;
+    }
+
+    .assuntos button{
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .assuntos button div{
+        width: 56px;
+        height: 56px;
+        padding: 8px;
+    }
+}
