@@ -358,3 +358,18 @@ main{
 }
 
 
+.assunto_icone.html{
+    background: var(--bg-html);
+}
+
+.assunto_icone.css{
+    background: var(--bg-css);
+}
+
+.assunto_icone.js{
+    background: var(--bg-js);
+}
+
+.assunto_icone.acessibilidade{
+    background: var(--bg-acessibilidade);
+}
