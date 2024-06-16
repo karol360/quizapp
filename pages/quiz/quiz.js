@@ -16,15 +16,16 @@ botaoTema.addEventListener("click", () => {
 verificarTema(body, botaoTema)
 
 
-function alterarAssunto() {
-    const divIcone = document.querySelector(".assunto_icone")
-    const iconeimg = domunet.querySelector("assunto_icone img")
-    const assuntoTitulo = document.querySelector(".assunto h1")
-
-
+function alterarAssunto( ){
+    const divIcone = document.querySelector('.assunto_icone')
+    const iconeImg = document.querySelector('.assunto img')
+    const assuntoTitulo = document.querySelector('.assunto h1')
+    
     divIcone.classList.add(assunto.toLocaleLowerCase())
-    iconeimg.setAttrubute("src", '../../assets/images/icon-${assunto.tolowerCase()}.svg')
+    iconeImg.setAttribute('src', `../../assets/images/icon-${assunto.toLowerCase()}.svg`)
+    iconeImg.setAttribute('alt',`icone de ${assunto}`)
     assuntoTitulo.innerText = assunto
+    
 }
 
 alterarAssunto()

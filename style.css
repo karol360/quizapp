@@ -15,7 +15,7 @@
     --white: #fff;
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
-    --bg-js: #ebf0ff;
+    --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --shadow: 0px 16px 40px 0px rgba(142, 160, 193, 0.14);
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
@@ -130,10 +130,24 @@ main{
     width: 40px;
     height: 40px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .assuntos button img{
     width: 100%;
+}
+
+.botao_html div{
+    background:var(--bg-html);
+}
+.botao_css div{
+    background:var(--bg-css);
+}
+.botao_javascript div{
+    background:var(--bg-javascript);
+}
+.botao_acessibilidade div{
+    background:var(--bg-acessibilidade);
 }
 
 .botao_html div{
@@ -205,5 +219,6 @@ main{
         width: 56px;
         height: 56px;
     }
+
     
 }
