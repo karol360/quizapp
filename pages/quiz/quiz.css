@@ -247,11 +247,23 @@ main{
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+     
     header{
         margin-block: 81px;
         max-width: 1160px;
         margin-inline: auto;
+    }
+
+    main{
+        max-width: 1160px;
+        margin-inline: auto;
+
+        display: block;
+        gap: 130px;
+    }
+
+    section{
+        width: 100%;
     }
 
     .assunto_icone{
@@ -318,20 +330,6 @@ main{
     .alternativas label{
         font-size: 22px;
         padding: 18px 20px;
-    }
-
-    
-
-    main{
-        display: block; 
-        gap: 130px;
-        max-width: 1160px;
-        margin-inline: auto;
-
-    }
-
-    section{
-        width: 100%;
     }
     
     .alternativas button{
