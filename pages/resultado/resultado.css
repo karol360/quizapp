@@ -150,6 +150,7 @@ main button{
     font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
+    box-shadow: var(--shadow);
 }
 
 main button:hover{
