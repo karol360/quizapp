@@ -8,7 +8,7 @@
 
 :root{
     --bg-color: #f4f6fa;
-    --gg-span: #f4f6fa;
+    --bg-span: #f4f6fa;
     --color-span:#626c7f;
     --purple: #a729f5;
     --purple-hover: rgb(167, 41, 245, 0.7);
@@ -137,7 +137,6 @@ main{
 
 .barra_progresso div{ 
     height: 100%;
-    width: 60%;
     background: var(--purple);
     border-radius: 999px;
 }
